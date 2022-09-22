@@ -23,6 +23,7 @@ mysql -u admin -h database-1.cre5baupyljm.ap-south-1.rds.amazonaws.com -p
 
 mysql -u admin -h database-1.cre5baupyljm.ap-south-1.rds.amazonaws.com -p bms < phpdemo/public/install/database.sql
 
+sudo vi /etc/apache2/sites-enabled/000-default.conf
 
 DocumentRoot /var/www/html/phpdemo
          <Directory /var/www/html/phpdemo>
@@ -31,3 +32,5 @@ DocumentRoot /var/www/html/phpdemo
                 AllowOverride All
                 Order allow,deny
         </Directory>
+
+sudo service apache2 restart
