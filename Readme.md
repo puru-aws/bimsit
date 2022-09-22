@@ -46,3 +46,20 @@ sudo apt-get install mysql-server php7.4-mysql
 sudo apt-get install php7.4-curl php7.4-xml php7.4-zip php7.4-gd php7.4-mysql php7.4-mbstring
 
 sudo service apache2 restart
+
+
+    1. Cloud Practitioner Exam Guide (https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+    2. Cloud Practitioner Sample Questions (https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf)
+
+    1. *Overview of Amazon Web Services (https://d1.awsstatic.com/whitepapers/aws-overview.pdf)*
+    2.  *How AWS Pricing Works (http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)*
+    3.  *Compare AWS Support Plans (https://aws.amazon.com/premiumsupport/plans/)*
+
+1. *Whizlab*
+    1. https://www.whizlabs.com/aws-certified-cloud-practitioner/
+
+    1. 
+
+
+1. *Acloud Guru*
+    1. AWS Certified Cloud Practitioner
