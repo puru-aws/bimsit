@@ -22,3 +22,12 @@ mysql -u admin -h database-1.cre5baupyljm.ap-south-1.rds.amazonaws.com -p
 
 
 mysql -u admin -h database-1.cre5baupyljm.ap-south-1.rds.amazonaws.com -p bms < phpdemo/public/install/database.sql
+
+
+DocumentRoot /var/www/html/phpdemo
+         <Directory /var/www/html/phpdemo>
+                Allow from all
+                Require all granted
+                AllowOverride All
+                Order allow,deny
+        </Directory>
